@@ -16,100 +16,106 @@ In this lab, we'll create an integration that is triggered using a Scheduler and
 
 * Login into Amplify Integration
 
-  ![login screen](images/login-screen.png)
+  ![login screen](images/loginScreen.png)
 
 * Open this ([file](<Tests automatisés.side>)) in Selenium IDE
 
-* Click on the Test list to select the approp
-  ![Test running](<images/HW01.png>)
+* Click on the Tests button
 
-* A green check should appear next to your test's name, indicating that your test was successful
-  ![Test completed](<images/Lab1 automated test completed.png>)
+  ![Test suite](<images/HW01.png>)
+
+* Select Test Suites 
+
+  ![Test suite](images/HW02.png)
+
+* Select the Hello World Test list and then select the first Lab
+
+  ![Hello World suite](images/HW03.png)
+
+* Click on the Run current test button to launch your test
+  ![Running Lab 1](<images/RunningHW_Lab1.png>)
+
+A green check should appear next to your test's name, indicating that your test was successful
+
+  ![Test completed](<images/HW_Lab1completed.png>)
 
 Your final integration should look like this:
 
-![Final](images/lab1-final-a.png)
+  ![Final](images/HW_Lab1integrationfinale.png)
+
+> Note that it could be better to set your windows as shown below to be able to follow the steps in Selenium IDE and see the execution of your test on Amplify Integration at the same time
+
+  ![Windows Split](images/HWlab1_windowsSplit.png)
 
 ## Lab 2
 
 In this lab, we'll add an HTTP/S Client component (and associated connection) to our integration and test it.
 
-* Continue from Lab 1 and copy the URL of your integration
- ![Link Copy](<images/Copy the link(lab1).png>)
+* Select the Hello World Lab2 test
 
-* Open this [file](<Lab 2 automated.side>) in Selenium IDE
+ ![Lab2](<images/HW_Lab2.png>)
 
-* Paste the Url in the Open command Target and in the Playback base URL field
- ![URL pasted](<images/paste the link.png>)
+* Before running the test, go the instruction 31 and replace the value by your Webhook.Site URL (without the `HTTPS://` protocol)
 
-* Paste url for webhook site (WITHOUT THE `https://` PROTOCOL ) in the Value field of the 27th command
- ![Webhook url](<images/webhook url Lab2 helloworld.png>)
+  ![Webhook URL](images/HW_Lab2WebhookUrl.png)
 
 * Click on the Run current test button
- ![Running Lab 2](<images/Running Lab 2.png>)
 
 * A green check should appear next to your test's name, indicating that your test was successful
- ![Lab 2 completed](<images/lab 2 completed.png>)
+ ![Lab 2 completed](<images/HW_Lab2completed.png>)
 
-* See results in webhook site, the following Json text should appear:
+* See the results in webhook site, the following Json text should appear:
  ```json
   {
     "text": "Hello world"
   ‌}
   ```
-  ![Webhook results](<../amplify integration labs test/images/Webhook results.png>)
+  ![Webhook results](<images/HW_Lab2Webhookresults.png>)
 
 Your final integration should look like this:
 
-![Final](images/lab2-final-a.png)
+![Final](images/HW_Lab2FinalIntegration.png)
 
 ## Lab 3
 
 In this lab, we'll replace the Scheduler component event trigger with an HTTP/S Server component (and associated connection) and test it.
 
-* Continue from Lab 2 and copy the URL of your integration
-  ![Link copy](</images/Copy Link Lab 3.png>)
-
-* Paste the Url in the Open command Target and in the Playback base URL field
-  ![Url pasted](<images/Changement URL lab 3.png>)
+* Select the Hello World Lab3 test
+  ![Lab3test](images/HW_lab3test.png)
 
 * Click on the Run current test button
-  ![Running lab 3](<images/Running lab3.png>)
 
 * A green check should appear next to your test's name, indicating that your test was successful
-  ![Lab3 completed](<images/Lab3 completed.png>)
+  ![Lab3 completed](<images/HW_LAB3Completed.png>)
 
 * Back to the integration copy the endpoint URL on the data plane  
-  ![Enable Toggle](images/lab3-enable-c.png)
+  ![Enable Toggle](<images/HW_Lab3endpointurl.png>)
 
 * In a separate browser tab paste the URL and enter a value for value (e.g. 10)
 
 * See results in webhook site and see that the body is equal to the value you provided
-  ![Results](<images/lab3 webhook results.png>)
+  ![Results](<images/HW_LAB3webhookresults.png>)
 
 Your final integration should look like this:
 
-![Final](images/lab3-final-a.png)
+![Final](images/HW_lab3-final.png)
 
 ## Lab 4
 
 In this lab, we'll add some flow control logic and variables to our integration and test it.
 
-* Continue from Lab 3 and copy the URL of your integration
-  ![alt text](<Copy link Lab4.png>)
+* Select the Hello World Lab4 test
 
-* Paste the Url in the Open command Target and in the Playback base URL field
-  ![Url pasted](<images/Url pasted lab 4.png>)
+  ![LAB4](images/HW_Lab4.png)
 
 * Click on the Run current test button
-  ![Running lab 3](<images/Running lab3.png>)
 
 * A green check should appear next to your test's name, indicating that your test was successful
-  ![Lab4 completed](<images/Lab4 completed.png>)
+  ![Lab4 completed](<images/HW_LAB4suuccessful.png>)
 
 * Activate your integration and trigger it with values greater than and less than 10 to see that only those greater than 10 are sent to webhook site. Verify by inspecting the transaction in the Monitor
 
 Your final integration should look like this:
 
-![Final](images/lab4-final-a.png)
+  ![Final](images/lab4-final-a.png)
 

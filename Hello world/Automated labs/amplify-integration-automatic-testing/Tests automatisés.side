@@ -2477,6 +2477,13 @@
       ],
       "value": ""
     }, {
+      "id": "8d127111-ec1b-46aa-8b44-d74348278b2e",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "c1eb93cd-b913-45f8-9311-05c01dd15c5b",
       "comment": "",
       "command": "click",
