@@ -2,7 +2,7 @@
   "id": "41df69c9-6ab0-4a25-9908-5797cb70a520",
   "version": "2.0",
   "name": "Automatisation Lab 4 Hello World",
-  "url": "https://axway-fr17.preprod.ampint.axwaypreprod.net/design/design-canvas/aefc1cb6-350b-4298-ba6c-731f7a15b818?pageName=Integration",
+  "url": "https://axway-fr17.preprod.ampint.axwaypreprod.net/design/design-canvas/38bf9fa9-35e2-4320-8723-2c6cfb3fa22f?pageName=Integration",
   "tests": [{
     "id": "c297e412-9a0a-4454-99c1-8c46f8362f03",
     "name": "automatisation hello world lab 4",
@@ -10,7 +10,7 @@
       "id": "9bf1d8a9-0de2-4380-95d9-2aa7d4951da2",
       "comment": "",
       "command": "open",
-      "target": "https://axway-fr17.preprod.ampint.axwaypreprod.net/design/design-canvas/aefc1cb6-350b-4298-ba6c-731f7a15b818?pageName=Integration",
+      "target": "https://axway-fr17.preprod.ampint.axwaypreprod.net/design/design-canvas/38bf9fa9-35e2-4320-8723-2c6cfb3fa22f?pageName=Integration",
       "targets": [],
       "value": ""
     }, {
@@ -91,12 +91,37 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "698b990d-b2e2-400d-9088-a988c6649e01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.font-size-18 > svg",
+      "targets": [
+        ["css=.font-size-18 > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d452aad-eeb7-4e4e-931c-b7b9a79e37a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(2) svg",
+      "targets": [
+        ["css=a:nth-child(2) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "d45334f7-72f4-45ea-8e3a-7e7654a9da4f",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "5aeedf6c-9f88-4600-b781-cb798850d20d",
       "comment": "",
       "command": "click",
-      "target": "css=.ng-star-inserted:nth-child(1) > .common-tree-section #component_plus_icon svg",
+      "target": "css=.ng-star-inserted:nth-child(1) > .common-tree-section #component_plus_icon path:nth-child(1)",
       "targets": [
-        ["css=.ng-star-inserted:nth-child(1) > .common-tree-section #component_plus_icon svg", "css:finder"]
+        ["css=.ng-star-inserted:nth-child(1) > .common-tree-section #component_plus_icon path:nth-child(1)", "css:finder"]
       ],
       "value": ""
     }, {
@@ -165,23 +190,30 @@
       ],
       "value": ""
     }, {
-      "id": "6bbc4679-b7b1-4cd5-aca7-338a00d634bc",
+      "id": "3b6a208c-a713-4110-9ef5-c24bd1e120dd",
       "comment": "",
       "command": "mouseOver",
       "target": "xpath=//app-if-else/ul/li/div/div",
       "targets": [
-        ["css=#\\30 49e31c4-b3cb-4c0f-9cd4-7d609d5948a1 > .card-header-section", "css:finder"],
-        ["xpath=//div[@id='049e31c4-b3cb-4c0f-9cd4-7d609d5948a1']/div", "xpath:idRelative"],
+        ["css=#\\38 0b11a79-e7a0-4e7c-9dd3-05c1ba13178b > .card-header-section", "css:finder"],
+        ["xpath=//div[@id='80b11a79-e7a0-4e7c-9dd3-05c1ba13178b']/div", "xpath:idRelative"],
         ["xpath=//app-if-else/ul/li/div/div", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "ce0eb7e2-c520-404a-9216-a7b7ea2030ee",
+      "id": "f5ef640e-68e8-42f2-a777-fc6d80ba802c",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99ce747c-6795-408c-a752-31dd20c6c4b6",
       "comment": "",
       "command": "click",
-      "target": "css=.anticon-arrows-alt > svg",
+      "target": "css=.anticon-arrows-alt path",
       "targets": [
-        ["css=.anticon-arrows-alt > svg", "css:finder"]
+        ["css=.anticon-arrows-alt path", "css:finder"]
       ],
       "value": ""
     }, {
@@ -268,12 +300,21 @@
       ],
       "value": ""
     }, {
+      "id": "6058a7cd-52cd-4668-97c0-73e483da9bcf",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "a3a5e443-4f48-4fb0-989d-6bf5326c234c",
       "comment": "",
       "command": "click",
-      "target": "css=.ng-tns-c630436078-331 svg",
+      "target": "xpath=//span/span/a",
       "targets": [
-        ["css=.ng-tns-c630436078-331 svg", "css:finder"]
+        ["css=.ng-tns-c630436078-374 .ant-input-group-addon > .ng-star-inserted", "css:finder"],
+        ["xpath=//div[@id='cdk-overlay-11']/nz-modal-container/div/div/div[2]/nz-spin/div/div/form/div/div/div[2]/div/app-map-condition-expression/div/div/div/div/nz-form-item/nz-form-control/div/div/nz-input-group/span/span/a", "xpath:idRelative"],
+        ["xpath=//span/span/a", "xpath:position"]
       ],
       "value": ""
     }, {
@@ -316,9 +357,13 @@
       "id": "197ce906-b62d-4b8c-ae1b-e2adf3c5fa7d",
       "comment": "",
       "command": "click",
-      "target": "css=.ng-tns-c146563758-333 svg",
+      "target": "id=operator_0",
       "targets": [
-        ["css=.ng-tns-c146563758-333 svg", "css:finder"]
+        ["id=operator_0", "id"],
+        ["css=#operator_0", "css:finder"],
+        ["xpath=//input[@id='operator_0']", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-overlay-21']/nz-modal-container/div/div/div[2]/nz-spin/div/div/form/div/div/div[2]/div/app-map-condition-expression/div/div/div/div[2]/nz-form-item/nz-form-control/div/div/nz-select/nz-select-top-control/nz-select-search/input", "xpath:idRelative"],
+        ["xpath=//div/div/nz-select/nz-select-top-control/nz-select-search/input", "xpath:position"]
       ],
       "value": ""
     }, {
@@ -389,23 +434,23 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "9ad57372-92f8-40dc-8063-7150c78ad0ac",
+      "id": "46c43dd0-6495-4679-9b03-52c8fe76681f",
       "comment": "",
       "command": "dragAndDropToObject",
-      "target": "id=5fe3792f-22ba-4156-8b6f-40c82fa8d6e5",
+      "target": "xpath=/html/body/app-root/layout-default/div/nz-spin/div/nz-layout/nz-layout/nz-content/div[2]/div/div/app-design-canvas/nz-spin/div/nz-spin/div/section/div[2]/div/div/div/app-dc-flow-component[3]/ul/li[1]",
       "targets": [],
-      "value": "css=.ng-star-inserted:nth-child(1) > .if-condition .plus-section"
+      "value": "xpath=/html/body/app-root/layout-default/div/nz-spin/div/nz-layout/nz-layout/nz-content/div[2]/div/div/app-design-canvas/nz-spin/div/nz-spin/div/section/div[2]/div/div/div/app-dc-flow-component[2]/div/app-if-else/ul/li/div/ul/li[1]/div/ul/li[2]"
     }, {
-      "id": "8052ac77-5765-45aa-86dc-fb10fb71091c",
+      "id": "4c761d8a-5178-435a-a80f-6d2750b96a7f",
       "comment": "",
       "command": "click",
-      "target": "css=.font-size-18 > svg",
+      "target": "css=.font-size-18 path:nth-child(2)",
       "targets": [
-        ["css=.font-size-18 > svg", "css:finder"]
+        ["css=.font-size-18 path:nth-child(2)", "css:finder"]
       ],
       "value": ""
     }, {
-      "id": "2bad3690-28d3-4280-b92d-1a57eee08d0f",
+      "id": "68d7276f-2c22-459f-b295-962daa0268ce",
       "comment": "",
       "command": "mouseOver",
       "target": "id=dp_trigger_event_Shared Data Plane",
@@ -413,49 +458,12 @@
         ["id=dp_trigger_event_Shared Data Plane", "id"],
         ["css=#dp_trigger_event_Shared\\ Data\\ Plane", "css:finder"],
         ["xpath=//button[@id='dp_trigger_event_Shared Data Plane']", "xpath:attributes"],
-        ["xpath=//div[@id='cdk-overlay-7']/div/div[2]/div/div/div[2]/nz-spin/div/div/div/div/div/nz-card/div/div[3]/div[2]/div[3]/nz-switch/button", "xpath:idRelative"],
+        ["xpath=//div[@id='cdk-overlay-21']/div/div[2]/div/div/div[2]/nz-spin/div/div/div/div/div/nz-card/div/div[3]/div[2]/div[3]/nz-switch/button", "xpath:idRelative"],
         ["xpath=//nz-switch/button", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "d28eb936-593d-4017-9310-d8ce284c4360",
-      "comment": "",
-      "command": "mouseOut",
-      "target": "id=dp_trigger_event_Shared Data Plane",
-      "targets": [
-        ["id=dp_trigger_event_Shared Data Plane", "id"],
-        ["css=#dp_trigger_event_Shared\\ Data\\ Plane", "css:finder"],
-        ["xpath=//button[@id='dp_trigger_event_Shared Data Plane']", "xpath:attributes"],
-        ["xpath=//div[@id='cdk-overlay-7']/div/div[2]/div/div/div[2]/nz-spin/div/div/div/div/div/nz-card/div/div[3]/div[2]/div[3]/nz-switch/button", "xpath:idRelative"],
-        ["xpath=//nz-switch/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "76453cd0-cc15-431b-9daa-53dc2b55a14a",
-      "comment": "",
-      "command": "mouseDown",
-      "target": "id=dp_trigger_event_Shared Data Plane",
-      "targets": [
-        ["id=dp_trigger_event_Shared Data Plane", "id"],
-        ["css=#dp_trigger_event_Shared\\ Data\\ Plane", "css:finder"],
-        ["xpath=//button[@id='dp_trigger_event_Shared Data Plane']", "xpath:attributes"],
-        ["xpath=//div[@id='cdk-overlay-7']/div/div[2]/div/div/div[2]/nz-spin/div/div/div/div/div/nz-card/div/div[3]/div[2]/div[3]/nz-switch/button", "xpath:idRelative"],
-        ["xpath=//nz-switch/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "ff0e99f0-d2cb-4649-b735-eeee4f0d9a3f",
-      "comment": "",
-      "command": "mouseUp",
-      "target": "css=#dp_trigger_event_Shared\\ Data\\ Plane > .ant-switch-handle",
-      "targets": [
-        ["css=#dp_trigger_event_Shared\\ Data\\ Plane > .ant-switch-handle", "css:finder"],
-        ["xpath=//button[@id='dp_trigger_event_Shared Data Plane']/span", "xpath:idRelative"],
-        ["xpath=//nz-switch/button/span", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "b6ce377c-82f0-4e41-b79c-1e8a78203007",
+      "id": "80fc2d9a-da95-4080-a1e0-1f2e0776d674",
       "comment": "",
       "command": "click",
       "target": "id=dp_trigger_event_Shared Data Plane",
@@ -463,40 +471,38 @@
         ["id=dp_trigger_event_Shared Data Plane", "id"],
         ["css=#dp_trigger_event_Shared\\ Data\\ Plane", "css:finder"],
         ["xpath=//button[@id='dp_trigger_event_Shared Data Plane']", "xpath:attributes"],
-        ["xpath=//div[@id='cdk-overlay-7']/div/div[2]/div/div/div[2]/nz-spin/div/div/div/div/div/nz-card/div/div[3]/div[2]/div[3]/nz-switch/button", "xpath:idRelative"],
+        ["xpath=//div[@id='cdk-overlay-21']/div/div[2]/div/div/div[2]/nz-spin/div/div/div/div/div/nz-card/div/div[3]/div[2]/div[3]/nz-switch/button", "xpath:idRelative"],
         ["xpath=//nz-switch/button", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "15662181-2635-4c27-aecb-170ef9741f0d",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=#dp_trigger_event_Shared\\ Data\\ Plane > .ant-switch-handle",
-      "targets": [
-        ["css=#dp_trigger_event_Shared\\ Data\\ Plane > .ant-switch-handle", "css:finder"],
-        ["xpath=//button[@id='dp_trigger_event_Shared Data Plane']/span", "xpath:idRelative"],
-        ["xpath=//nz-switch/button/span", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "295725d9-0419-457f-b1e1-e4dba3485411",
+      "id": "fe040474-e783-4e1f-bd04-d5feac150548",
       "comment": "",
       "command": "mouseOut",
-      "target": "css=#dp_trigger_event_Shared\\ Data\\ Plane > .ant-switch-handle",
+      "target": "id=dp_trigger_event_Shared Data Plane",
       "targets": [
-        ["css=#dp_trigger_event_Shared\\ Data\\ Plane > .ant-switch-handle", "css:finder"],
-        ["xpath=//button[@id='dp_trigger_event_Shared Data Plane']/span", "xpath:idRelative"],
-        ["xpath=//nz-switch/button/span", "xpath:position"]
+        ["id=dp_trigger_event_Shared Data Plane", "id"],
+        ["css=#dp_trigger_event_Shared\\ Data\\ Plane", "css:finder"],
+        ["xpath=//button[@id='dp_trigger_event_Shared Data Plane']", "xpath:attributes"],
+        ["xpath=//div[@id='cdk-overlay-21']/div/div[2]/div/div/div[2]/nz-spin/div/div/div/div/div/nz-card/div/div[3]/div[2]/div[3]/nz-switch/button", "xpath:idRelative"],
+        ["xpath=//nz-switch/button", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "f57f354e-6c02-4364-a0f7-aa6198eac060",
+      "id": "b1f51b26-b791-4041-aeff-e93537a8f395",
       "comment": "",
       "command": "click",
       "target": "css=a:nth-child(2) > .font-16 > svg",
       "targets": [
         ["css=a:nth-child(2) > .font-16 > svg", "css:finder"]
       ],
+      "value": ""
+    }, {
+      "id": "a8d77706-652d-4b44-818d-26e88fc440bb",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
       "value": ""
     }]
   }],
@@ -508,6 +514,6 @@
     "timeout": 300,
     "tests": ["c297e412-9a0a-4454-99c1-8c46f8362f03"]
   }],
-  "urls": ["https://axway-fr17.preprod.ampint.axwaypreprod.net/design/design-canvas/aefc1cb6-350b-4298-ba6c-731f7a15b818?pageName=Integration"],
+  "urls": ["https://axway-fr17.preprod.ampint.axwaypreprod.net/design/design-canvas/aefc1cb6-350b-4298-ba6c-731f7a15b818?pageName=Integration", "https://axway-fr17.preprod.ampint.axwaypreprod.net/design/design-canvas/9a440f60-2356-44a6-b222-b8edea234af3?pageName=Integration", "https://axway-fr17.preprod.ampint.axwaypreprod.net/design/design-canvas/b89fc02f-8588-4fab-a153-8002dfc1e60f?pageName=Integration", "https://axway-fr17.preprod.ampint.axwaypreprod.net/design/design-canvas/d9c5d313-1cfc-4782-a39f-18813d59a69a?pageName=Integration", "https://axway-fr17.preprod.ampint.axwaypreprod.net/design/design-canvas/b55d55ca-65fd-4614-a02b-dae171dbd6cc?pageName=Integration", "https://axway-fr17.preprod.ampint.axwaypreprod.net/design/design-canvas/c8acb1a7-43ff-42c5-9bc4-7f83f35dc8a6?pageName=Integration", "https://axway-fr17.preprod.ampint.axwaypreprod.net/design/design-canvas/38bf9fa9-35e2-4320-8723-2c6cfb3fa22f?pageName=Integration"],
   "plugins": []
 }

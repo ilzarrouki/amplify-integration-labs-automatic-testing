@@ -18,10 +18,10 @@ In this lab, we'll create an integration that is triggered using a Scheduler and
 
   ![login screen](images/login-screen.png)
 
-* Open this ([file](<Lab 1 automated.side>)) in Selenium IDE
+* Open this ([file](<Tests automatisés.side>)) in Selenium IDE
 
-* Click on the Run current test button
-  ![Test running](<images/Test Running (Lab1) (2).png>)
+* Click on the Test list to select the approp
+  ![Test running](<images/HW01.png>)
 
 * A green check should appear next to your test's name, indicating that your test was successful
   ![Test completed](<images/Lab1 automated test completed.png>)
